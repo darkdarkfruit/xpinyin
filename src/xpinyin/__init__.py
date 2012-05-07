@@ -56,3 +56,11 @@ class Pinyin():
             return self.dict["%X" % ord(char)].split(" ")[0][0]
         except:
             return char
+            
+    def capitalize_firstname_and_lastname(self, hanzi_utf8):
+        ''' eg: '姓名'  ==>  'XingMing'.  I will finish this function when I has spare time. '''
+        pass
+    
+    def get_capitalized_XingMing(self, hanzi_utf8):
+        ''' function link to capitalize_firstname_and_lastname '''
+         capitalize_firstname_and_lastname(hanzi_utf8)
